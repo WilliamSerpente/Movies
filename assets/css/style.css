@@ -123,10 +123,34 @@ img{
     p {
       font-size: 16px;
     }
+    img {
+      height: 400px ;
+    }
     /* h3 {
       font-size: 40px;
     } */
+    h1 {
+      font-size: 25px;
+    }
     h4 {
       font-size: 20px;
     }
   }
+
+  /* @media screen and (max-width: 480px) {
+    p {
+      font-size: 13px;
+    }
+    img {
+      height: 200px ;
+    }
+    h1 {
+      font-size: 18px;
+    }
+    h2{
+      font-size: 18px;
+    }
+    h4 {
+      font-size: 16px;
+    }
+  } */
