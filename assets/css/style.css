@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=PT+Sans&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+
+html{
+  scroll-behavior: smooth;
+}
+.botones{
+  padding: 2% 0;
+}
+.centerText{
+  margin: auto;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+  color: white;
+  text-align: center;
+  font-size:48px;
+}
+hr{
+    height: 2px;
+    border: none;
+    background-color: #9d1c2e;
+}
+h2, h1{ 
+  font-weight: bold;
+
+}
+
+p{
+  font-size: 20px;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  text-align: justify;
+}
+img{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: 5px solid #9d1c2e;
+
+}
+.container-fluid {
+    padding: 60px 50px;
+    background-color: white;
+  }
+
+.bg-gray{
+    background-color: #f6f6f6;
+}
+.color-white{
+  color: white;
+}
+.bg-red{
+    background-color: #9d1c2e;
+}
+.bg-redish{
+    background-color: #c56e7a;
+}
+.color-red{
+  color: #9d1c2e;
+}
+.color-black{
+  color: black;
+}
+
+.header{
+  height: 450px;
+  background-image: url(../images/header.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.navbar {
+  
+    margin-bottom: 0;
+    background-color: #9d1c2e;
+    border: 0;
+    font-size: 14px !important;
+    z-index: 9999;
+     line-height: 1.42857143; 
+    letter-spacing: 2px; 
+    border-radius: 0;
+    justify-content: center;
+    /* font-family: 'Comfortaa', sans-serif; */
+  }
+  .icon-bar{
+    background-color: white!important;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: white !important ;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #9d1c2e !important; 
+    background-color: white!important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #9d1c2e !important;
+  }
+
+  .header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(25, 25, 25, 0.6)), url(../img/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  span{
+    color: #9d1c2e;
+    font-weight: bold;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    p {
+      font-size: 16px;
+    }
+    /* h3 {
+      font-size: 40px;
+    } */
+    h4 {
+      font-size: 20px;
+    }
+  }
