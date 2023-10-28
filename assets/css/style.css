@@ -135,6 +135,12 @@ img{
     h4 {
       font-size: 20px;
     }
+    .centerText{
+      height: 350px;
+    }
+    .centerText h1{
+      font-size: 38px;
+    }
   }
 
   /* @media screen and (max-width: 480px) {
@@ -154,3 +160,5 @@ img{
       font-size: 16px;
     }
   } */
+
+  /* Lo quiero mucho profe, gracias por los consejos de los cursos ojala algun dia pueda beber con usted y Richard */
